@@ -39,8 +39,8 @@ const TasksList = () => {
   };
 
   const deleteTask = (id) => {
-    const updatedTasks = tasks.filter((task) => task.id !== id);
-    setTasks(updatedTasks);
+    
+    setTasks(tasks.filter((task) => task.id !== id));
   };
 
   return (
